@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\ball_animate.cs" />
      <Compile Include="Assets\ball_color_build.cs" />
+     <Compile Include="Assets\ball_feature_01.cs" />
      <Compile Include="Assets\ball_main.cs" />
      <Compile Include="Assets\main.cs" />
   </ItemGroup>
