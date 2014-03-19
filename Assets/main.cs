@@ -33,6 +33,9 @@ public class main : MonoBehaviour {
                 i.gameObject.AddComponent<ball_color_build>();
                 // 載入特性
                 i.gameObject.AddComponent<ball_feature_01>();
+                // 物理特性
+                i.gameObject.AddComponent<Rigidbody>();
+                i.gameObject.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezePositionX;
 
                 // 初始化資訊
                 i.GetComponent<ball_main>().id = idx;
